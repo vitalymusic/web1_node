@@ -8,7 +8,8 @@
     "build": "parcel build"
   },
   "dependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "videojs-background": "^1.0.7"
   },
   "devDependencies": {
     "parcel": "^2.14.0"

@@ -10,3 +10,14 @@ h1{
   font-size: 2rem;
   font-weight:400;
 }
+
+
+ .video-js {
+    overflow:hidden;
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: -998;
+  }

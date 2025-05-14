@@ -1,4 +1,7 @@
 import $ from "jquery";
+import videojs from "video.js";
+// import "videojs-background"
+
 $(()=>{
     $("h1").css({
         "color":"red",
@@ -24,8 +27,8 @@ $(()=>{
     })
 
 
-    
+});
 
 
-
-})
+const player = videojs('bg-video'); //
+// videojs('bg-video').Background();
