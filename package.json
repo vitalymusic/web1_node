@@ -7,7 +7,9 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
   "devDependencies": {
     "parcel": "^2.14.0"
   }
