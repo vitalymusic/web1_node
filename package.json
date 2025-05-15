@@ -2,16 +2,20 @@
   "name": "parcel-vanilla-starter",
   "private": true,
   "version": "0.0.0",
-  "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@tailwindcss/postcss": "^4.1.7",
     "jquery": "^3.7.1",
     "youtube-background": "^1.1.8"
   },
   "devDependencies": {
-    "parcel": "^2.14.0"
+    "autoprefixer": "^10.4.21",
+    "parcel": "^2.14.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
   }
 }
