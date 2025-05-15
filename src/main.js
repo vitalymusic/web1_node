@@ -28,8 +28,18 @@ $(()=>{
     })
 
 
+
+
+    // Foto ielāde
+    $.getJSON('http://localhost:3000/photos',(dati)=>{
+        console.log(dati);
+        for(let bilde of dati){
+            $(".foto").append(`<img src="${bilde.url}" alt="bilde">`);
+        }
+    })
+
 });
 
 
-// const player = new videojs('bg-video'); //
-// videojs('bg-video').Background();
+
+
