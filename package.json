@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "jquery": "^3.7.1",
-    "videojs-background": "^1.0.7"
+    "youtube-background": "^1.1.8"
   },
   "devDependencies": {
     "parcel": "^2.14.0"

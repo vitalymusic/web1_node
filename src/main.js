@@ -1,6 +1,7 @@
 import $ from "jquery";
-import videojs from "video.js";
-// import "videojs-background"
+import "./videoBackground";
+
+  
 
 $(()=>{
     $("h1").css({
@@ -30,5 +31,5 @@ $(()=>{
 });
 
 
-const player = videojs('bg-video'); //
+// const player = new videojs('bg-video'); //
 // videojs('bg-video').Background();
