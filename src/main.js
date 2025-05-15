@@ -2,6 +2,7 @@ import $ from "jquery";
 import "./videoBackground";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import'./tailwind.css';  
+import * as bootstrap from 'bootstrap'
 
 $(()=>{
     $("h1").css({
